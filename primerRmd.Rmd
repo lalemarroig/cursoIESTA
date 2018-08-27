@@ -1,0 +1,29 @@
+---
+title: "primerRmd"
+author: "Alejandra"
+date: "27 de agosto de 2018"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# Genero el dataframe
+```{r dataframe}
+set.seed(1234)
+N=rpois(1,90)
+x=runif(N)
+y=runif(N)
+
+datos=data.frame(x,y)
+```
+# Hago kable del dataframe
+```{r tabla, echo=F}
+library(knitr)
+kable(summary(datos))
+```
+
+
+
+
