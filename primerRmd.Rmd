@@ -1,6 +1,6 @@
 ---
 title: "primerRmd"
-author: "Alejandra"
+author: "marroig"
 date: "27 de agosto de 2018"
 output: html_document
 ---
